@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #bccfcd; /* Turkuaz rengi */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header h1 {
+    display: inline;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: #444;
+}
+
+.task-list {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1; /* İstediğiniz arka plan rengini buraya ekleyebilirsiniz */
+    padding: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #40E0D0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttons button:hover {
+    background-color: #3cb8b0; /* Hover rengi */
+}
